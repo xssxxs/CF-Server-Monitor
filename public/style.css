@@ -577,13 +577,6 @@ body::before {
     text-align: center;
 }
 
-.stat-value {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--accent-cyan);
-    text-shadow: 0 0 8px rgba(57, 210, 192, 0.3);
-}
-
 .stat-value.cyan {
     color: var(--accent-cyan);
 }

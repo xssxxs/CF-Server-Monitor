@@ -39,19 +39,19 @@
 
         <div class="stats-grid" id="stats-panel">
           <div class="stat-card">
-            <div class="stat-value" id="stat-total">{{ stats.total }}</div>
+            <div class="stat-main-value" id="stat-total">{{ stats.total }}</div>
             <div class="stat-label">{{ trans.totalServers }}</div>
           </div>
           <div class="stat-card">
-            <div class="stat-value" id="stat-online">{{ stats.online }}</div>
+            <div class="stat-main-value" id="stat-online">{{ stats.online }}</div>
             <div class="stat-label">{{ trans.online }}</div>
           </div>
           <div class="stat-card">
-            <div class="stat-value" id="stat-offline">{{ stats.offline }}</div>
+            <div class="stat-main-value" id="stat-offline">{{ stats.offline }}</div>
             <div class="stat-label">{{ trans.offline }}</div>
           </div>
           <div class="stat-card">
-            <div class="stat-value" id="stat-avg-cpu">{{ stats.avg_cpu }}%</div>
+            <div class="stat-main-value" id="stat-avg-cpu">{{ stats.avg_cpu }}%</div>
             <div class="stat-label">{{ trans.avgCpu }}</div>
           </div>
         </div>

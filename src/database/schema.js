@@ -665,7 +665,7 @@ export async function getMetricsHistory(db, serverId, hours, columns, enableLong
 
   const lastAggregatedTo = enableLongRetention ? await getLastAggregatedTo(db) : null;
 
-  const rawCutoff = lastAggregatedTo || (now - 30 * 60 * 1000);
+  const rawCutoff = lastAggregatedTo || cutoff;
 
   const map = new Map();
 
